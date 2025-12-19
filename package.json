@@ -1,0 +1,22 @@
+{
+  "__file": "package.json",
+  "name": "signal-lattice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "latest",
+    "@coinbase/onchainkit": "latest",
+    "viem": "latest",
+    "base-web": "github:base/web",
+    "base-node": "github:base/node"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "typescript": "latest"
+  }
+}
