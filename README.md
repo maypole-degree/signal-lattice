@@ -44,9 +44,9 @@ All interactions are strictly read-only.
 
 - contracts/  
   Solidity contracts deployed to Base Sepolia for testnet validation:
-  - your_contract.sol — minimal deployment verification contract  
-  - your_contract.sol — simple stateful interaction contract  
-  - your_contract.sol — lightweight read-only query contract  
+  - arrays.sol — a Solidity contract that demonstrates or manages arrays  
+  - mapping.sol — contract that allows fast lookup by key (e.g. address => uint)
+  - structs.sol — a Solidit contract focused on structs (custom data types)
 
 - package.json  
   Dependency manifest referencing Coinbase and Base repositories.
@@ -94,8 +94,10 @@ Copyright (c) 2025 emails.maypole-degree
 ## Author
 
 GitHub: https://github.com/settings/emails.maypole-degree  
-Email: maypole.degree_0j@icloud.com    
 
+Email: maypole.degree_0j@icloud.com   
+
+X: https://x.com/Albert37725500
 ---
 
 ## Testnet Deployment (Base Sepolia)
@@ -107,24 +109,24 @@ chainId (decimal): 84532
 Explorer: https://sepolia.basescan.org  
 
 Contract #1 address:  
-0xfbfe9e889e4d6640978cf41b2ed83d2aeaca62a0
+0x2fcbf185fb2b3445749f0fd77ed4b9333dc4aefa
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/0xfbfe9e889e4d6640978cf41b2ed83d2aeaca62a0
-- https://sepolia.basescan.org/0xfbfe9e889e4d6640978cf41b2ed83d2aeaca62a0/0#code  
+- https://sepolia.basescan.org/address/0x2fcbf185fb2b3445749f0fd77ed4b9333dc4aefa
+- https://sepolia.basescan.org/0x2fcbf185fb2b3445749f0fd77ed4b9333dc4aefa/0#code  
 
 Contract #2 address:  
-0x3bb94aa103f3919957dab7179d950a57138ec5d6
+0x37d503446e660dc1baf0092086f907a44f1fbb69
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/0x3bb94aa103f3919957dab7179d950a57138ec5d6
-- https://sepolia.basescan.org/0x3bb94aa103f3919957dab7179d950a57138ec5d6/0#code  
+- https://sepolia.basescan.org/address/0x37d503446e660dc1baf0092086f907a44f1fbb69
+- https://sepolia.basescan.org/0x37d503446e660dc1baf0092086f907a44f1fbb69/0#code  
 
 Contract #3 address:  
-0x12e22915564b8f67877b7257a054e17c63488eb8
+0xf2a8bdee569c983076d47542f3dac74279260632
 
 Deployment and verification:
-- https://sepolia.basescan.org/address/0x12e22915564b8f67877b7257a054e17c63488eb8
-- https://sepolia.basescan.org/0x12e22915564b8f67877b7257a054e17c63488eb8/0#code  
+- https://sepolia.basescan.org/address/0xf2a8bdee569c983076d47542f3dac74279260632
+- https://sepolia.basescan.org/0xf2a8bdee569c983076d47542f3dac74279260632/0#code  
 
 These testnet deployments provide a controlled environment for validating Base tooling, account abstraction flows, and read-only onchain interactions prior to Base Mainnet usage.
